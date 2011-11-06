@@ -1,0 +1,98 @@
+.benchmark{
+	width:960px;
+	height:200px;
+	border-bottom: 1px black solid;
+	margin-bottom:-20px;
+}
+
+.levelSpace{
+	font-size:230px;
+	width:150px;
+	margin-top:-30px;
+}
+
+.z{	z-index:10;}
+
+.setBox{
+
+	background-color:white;
+	border:5px solid black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	text-align:center;
+	float:left;
+	margin-right:10px;
+	background-color:white;
+	
+	font-size:70px;
+	margin-top:20px;
+	width:60px;
+}
+
+.redhvr:hover{
+	color:#CC0200;
+}
+
+
+.contentContainer{
+	float:left;
+	width:550px;
+	right:0px;
+	font-size:30px;
+	margin-left:60px;
+}
+
+.setSpace{
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height:120px;
+}
+
+.actionSpace{
+	margin-top:10px;
+	height:40px;
+}
+
+.infoSpace{
+	height:170px;
+	width:180px;
+	float:right;
+}
+
+.timer{
+	font-size:30px;
+	margin-top:30px;
+	margin-left:305px;
+	position:absolute;
+	display:none;
+}
+
+.completeBar{
+	position:absolute;
+	width:100%;
+	color:white;
+	background-color:black;
+	margin-top:75px;
+	display:none;
+	opacity:1.0;
+}
+
+/* Active Level */
+
+
+#level89{
+	opacity:0.4;
+}
+
+#level87{
+	opacity:0.4;
+}
+
+#level87 .completebar{
+	opacity:1.0;
+	display:block;
+}

@@ -1,0 +1,22 @@
+application: 100pushups-skaught
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /pages
+  static_dir: pages
+
+- url: /js
+  static_dir: js
+  
+- url: /style
+  static_dir: style
+  
+- url: /images
+  static_dir: images
+
+- url: .*
+  script: main.py
+

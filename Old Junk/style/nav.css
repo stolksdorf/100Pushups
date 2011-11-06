@@ -1,0 +1,45 @@
+#nav{
+	border-right-style:solid;
+	border-width:40px;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:150px;
+	z-index:1;
+	padding-top:50px;
+	padding-left:15px;
+}
+
+a, a:hover,a:focus,a:active,a:visited{
+	text-decoration: none;
+}
+
+.item, #nav a{
+	cursor:pointer;
+	color:black;
+}
+.item:hover{
+	background-color:black;
+	color:white;
+}
+
+#btnLogout{
+	margin-top:65px;
+}
+
+#logUser{
+	border-left:1px solid grey;
+	cursor:pointer;
+	color:white;
+}
+
+#logUser:hover{
+	background-color:white;
+	color:black;
+}
+
+
+
+
+

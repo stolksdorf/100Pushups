@@ -1,0 +1,101 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="http://dl.dropbox.com/u/562800/xo/xo.js"></script>
+	<link rel="Stylesheet" type="text/css" href="http://dl.dropbox.com/u/562800/xo/xo.css" />
+
+	
+	<script type="text/javascript" src="js/strings.js"></script>
+	<script type="text/javascript" src="js/user.js"></script>
+	<script type="text/javascript" src="/js/workout.js"></script>
+	
+	<script type="text/javascript" src="js/program.js"></script>
+	
+	<link rel="Stylesheet" type="text/css" href="style/index.css" />
+	<link rel="Stylesheet" type="text/css" href="/style/workout.css" />
+
+</head>
+<body>
+	
+	{% include 'nav.html' %}
+	<div id="container" class="lghtgreybg">
+	
+		<div id="btnExit" class="btn clickable f2">Give Up?</div>
+		
+		<div id="newPlayer" class="page f2 center">
+			Hey there new player
+			Do as many pushups as you can and enter the total you reached, this will decide what level you'll start at
+			<input id="numPushups" type="text" name="numPushups"></input>
+			<div id="btnNewPlayer" class="clickable btn">Next</div>
+		</div>
+		
+		<div id="welcome" class="page f3 center">
+		
+			<div class="center">
+				You are currently level <span class="userLevel red"></span>
+			</div>
+			
+			<div class="f2 center">
+				Your mission for today
+			</div>
+			
+			<div id="todayWorkout f4" class="center w750 trimtop trimbottom">
+				<div class="p0"></div>
+				<div class="p1"></div>
+				<div class="p2"></div>
+				<div class="p3"></div>
+				<div class="p4 red"></div>
+			</div>
+			
+			<div id="btnStart" class="clickable btn center clear">Start</div>
+			
+		</div>
+		
+		<div id="pushups" class="page f4">
+			<div class="center">Do <span class="currentPushups"></span> Pushups! </div>
+			<div id="btnCooldown" class=" center clickable btn">Done!</div>
+
+		</div>
+		
+		<div id="pushupFinal" class="page f4">
+			<div class="center">Almost there!</div>
+			<div class="f2 center">Do at least <span class="red currentPushups"></span> pushups</div>
+			<div class="center">
+				<input id="numPushupsFinal" type="text" name="numPushups"></input>
+				<div id="btnFinal" class="clickable btn f3">Done!</div>
+			</div>
+			
+		</div>
+		
+		<div id="coolDown" class="page">
+			<div class="center f3">Whew! Time to cool down</div>
+			<div class="coolDownTime f4 center"></div>
+			<div id="btnPushups" class="f4 clickable btn center">Ready?</div>
+
+		</div>
+		
+		<div id="success" class="page">
+			
+			Whew! good work, Come back in a couple days to continue on with the challenge
+		</div>
+		
+		<div id="failure" class="page">
+		
+			Poop!
+		
+		</div>
+		
+		
+		<div id="challenge" class="page">
+			Challenge time!
+		</div>
+		
+		<div id="challengeSuccess" class="page">
+			Finished the challenge!
+		</div>
+		
+		{% include 'login.html' %}
+		
+	</div>
+</body>
+</html>

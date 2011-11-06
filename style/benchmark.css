@@ -1,0 +1,107 @@
+.benchmark{
+	width:960px;
+	height:180px;
+	/*
+	border-bottom: 1px black solid;
+	*/
+	padding-top:50px;
+}
+
+.levelSpace{
+	line-height:180px;
+	font-size:230px;
+	width:150px;
+	margin-left:15px;
+}
+
+.setBox{
+	background-color:white;
+	border:5px solid black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	text-align:center;
+	float:left;
+	margin-right:25px;
+	background-color:white;
+	margin-top:20px;
+	
+	
+	font-size:90px;
+	width:80px;
+}
+
+
+.contentSpace{
+	float:left;
+	width:700px;
+	right:0px;
+	font-size:30px;
+	margin-left:60px;
+	z-index:5;
+}
+
+.regularContainer .contentBox{
+	margin-left:auto;
+	margin-right:auto;
+	width:680px;
+	height:120px;
+}
+
+.regularContainer .actionSpace{
+	margin-top:20px;
+	height:40px;
+	
+}
+
+.challengeContainer .contentBox{
+	margin-left:auto;
+	margin-right:auto;
+	width:680px;
+	height:120px;
+	margin-top:28px;
+}
+
+.challengeContainer .actionSpace{
+	margin-top:-20px;
+	height:40px;
+}
+
+
+
+/*
+.infoSpace{
+	height:170px;
+	width:180px;
+	float:right;
+}
+*/
+
+.timer{
+	font-size:30px;
+	margin-top:-10px;
+	margin-left:275px;
+	position:absolute;
+	display:none;
+}
+
+.completeBar{
+	position:absolute;
+	width:960px;
+	color:white;
+	background-color:black;
+	margin-top:50px;
+	opacity:1.0;
+	z-index:10;
+}
+
+#regularCount{
+	margin-right:100px;
+}
+
+#challengeCount{
+	margin-top:-60px;
+	margin-right:80px;
+}

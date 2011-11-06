@@ -1,0 +1,41 @@
+body{
+	overflow:hidden;
+}
+
+
+
+.p0, .p1, .p2, .p3, .p4{
+	border:5px solid black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding-left:10px;
+	padding-right:10px;
+	width:100px;
+	text-align:center;
+	float:left;
+	margin-right:20px;
+	background-color:white;
+}
+
+.btn:hover{
+	color:#CC0200;
+}
+
+.page{
+	position:absolute;
+	left:2000px;
+	
+	vertical-align: middle;
+}
+
+#btnExit{
+	bottom:0px;
+	position:fixed;
+	right:0px;
+	z-index:100;
+}
+
+
+#welcome{
+	padding-top:75px;
+}

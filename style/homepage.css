@@ -1,0 +1,50 @@
+#topContent{
+/*
+background-image:url('red_sunburst.png');
+background-repeat: no-repeat;
+background-position: top center;*/
+
+}
+
+
+#title{
+	padding-top:40px;
+}
+
+.quest{
+	width:80%;
+	height:70px;
+}
+
+.topBarElement{
+	float:right;
+	padding-right:15;
+	padding-left:15;
+	border-left:1px solid white;
+	cursor:pointer;
+}
+
+.topBarElement:hover{
+	background-color:white;
+	color:black;
+}
+
+.crazyGradient{
+	/* IE10 */ 
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EF6211 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EF6211 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EF6211 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #EF6211));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EF6211 100%);
+
+/* Proposed W3C Markup */ 
+background-image: linear-gradient(bottom, #FFFFFF 0%, #EF6211 100%);
+}
